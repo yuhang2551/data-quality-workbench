@@ -2,11 +2,11 @@
 
 An inspectable Python pipeline for cleaning CRM-style exports without silently guessing missing values or merging conflicting records.
 
-[Detailed case study: problem, data, method, evidence and limits](CASE_STUDY.md) | [中文说明](README.zh-CN.md)
+[Detailed case study: problem, data, method, evidence and limits](CASE_STUDY.md)
 
 ![Data-quality demonstration](portfolio-cover.png)
 
-**Independent, AI-assisted demonstration. All example contacts are synthetic. This is not paid client work or a production CRM deployment.**
+**Independent engineering demonstration using synthetic contact records. Not a production CRM deployment.**
 
 ## What it delivers
 
@@ -54,4 +54,4 @@ The 100 quarantined rows include both sides of 20 conflicting IDs plus 60 invali
 
 See `verification.json` for the recorded test methods, runtime and source-file hashes. Passing these checks is conformance to the synthetic fixture, not an accuracy estimate for real customer data.
 
-Built with AI-assisted implementation and testing. The source, fixtures and explicit acceptance checks are the evidence for the demonstrated capability. No client identities, confidential datasets, API keys or customer claims are included. No open-source license has been selected.
+The source, fixtures and explicit acceptance checks document the demonstrated capability. No client identities, confidential datasets, API keys or customer outcomes are included.

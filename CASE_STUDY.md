@@ -4,7 +4,7 @@
 
 A command-line Python tool that turns a structured but inconsistent contact export into a clean file and a traceable review queue. A person preparing a CRM migration needs to know both which rows are usable and why other rows were excluded. A cleaned file alone cannot explain whether an important record was silently lost or an ambiguous record was merged incorrectly.
 
-The intended outcome is a reviewable import candidate, not an automatic change to a live CRM. The implementation provides deterministic rules, explicit dispositions for every source row, and reproducible examples. It does not use a trained model or an LLM to decide which records are correct.
+The intended outcome is a reviewable import candidate, not an automatic change to a live CRM. The implementation provides deterministic rules, explicit dispositions for every source row, and reproducible examples.
 
 ## 2. Input and output contract
 
@@ -88,4 +88,4 @@ For a client engagement, agree on the real schema and cleaning policy first. Obt
 
 ## 8. Contribution and evidence boundary
 
-This is an independent portfolio project built with AI-assisted implementation, testing and documentation. It is not paid client work and contains no claimed employment, customer outcome or deployed CRM integration. The code, test fixture and stated checks are the evidence for the demonstrated engineering capability.
+This independent engineering project covers implementation, testing and documentation. Its evidence consists of the source code, generated fixture and stated checks. It is not a paid client engagement or a deployed CRM integration, and no real customer outcome is claimed.
