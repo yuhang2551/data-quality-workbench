@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-09-07T11:55:18.188099+00:00",
+  "project": "data-quality-workbench",
+  "command": "python -m unittest -v",
+  "python_version": "3.12.14",
+  "os": "Darwin",
+  "tests_run": 17,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_methods": [
+    "test_conflicts_quarantine_all",
+    "test_dates",
+    "test_empty_input",
+    "test_exact_duplicate_only",
+    "test_fixture_conservation",
+    "test_formula_neutralization",
+    "test_html_escaped",
+    "test_invalid_peer_holds_other_record",
+    "test_missing_id",
+    "test_no_input_mutation",
+    "test_normalization",
+    "test_outputs_and_no_overwrite",
+    "test_reject_duplicate_header",
+    "test_reject_wrong_columns",
+    "test_stable_reprocessing",
+    "test_unknown_country",
+    "test_unknown_plan"
+  ],
+  "source_sha256": {
+    "data_quality.py": "30087a11d142fd294002ef3d3d6aaec53a16f2723176ec0c24a75b55e53267a6",
+    "demo.py": "e97f66b05e9f674bd3fde8c5f48336bf8de410b0745fab96351e36c66f21db5c",
+    "test_data_quality.py": "be39aab24e43b3146a590409b4ce4081272d769286959a2517a97819f7e16905"
+  },
+  "scope": "Local automated checks of the documented synthetic fixtures; not production acceptance or an accuracy estimate."
+}
